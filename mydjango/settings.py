@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'accounts.apps.AccountsConfig',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -82,6 +84,7 @@ DATABASES = {
     }
 }
 
+AUTH_USER_MODEL = 'accounts.AccountUser'
 
 # Password validation
 # https://docs.djangoproject.com/en/1.9/ref/settings/#auth-password-validators
@@ -94,7 +97,7 @@ AUTH_PASSWORD_VALIDATORS = []
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
