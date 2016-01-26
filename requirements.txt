@@ -1,0 +1,5 @@
+Django
+pytz
+psycopg2
+djangorestframework
+djangorestframework-camel-case
